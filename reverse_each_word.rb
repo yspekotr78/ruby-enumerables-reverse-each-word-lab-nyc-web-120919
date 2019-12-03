@@ -5,7 +5,7 @@ def reverse_each_word(string)
   
 end
 def reverse_each_word(string)
-  newer_string = string.split(" ")
+  newer_string = string.split(' ')
   newer_string.collect{|x| x.reverse!}
   return newer_string.join(" ")
 end
